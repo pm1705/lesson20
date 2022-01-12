@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#595959"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".credit_screen">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="10" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:gravity="center"
+        android:text="CREDITS - original color scheme -> paz malul. for technical support don't contact me please i dont know anything"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="50" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="0px"
+        android:layout_weight="10"
+        android:onClick="back_back"
+        android:text="RETURN"
+        android:textColor="#2E2E2E"
+        app:backgroundTint="#D1D1D1" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="10" />
+</LinearLayout>
