@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * reset_text
      *
-     * resets text in local file, then updates textview to be empty
+     * resets text in local file then updates textview to be empty
      * @param view
      */
 
